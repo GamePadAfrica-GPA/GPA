@@ -13,7 +13,7 @@ export default function NavBar(props) {
 
   return (
     <nav className=" flex items-center ">
-      <div className=" flex items-center ">
+      <div className=" flex items-center  ">
         <div className="px-4  ">
           <svg
             width="40"
@@ -54,10 +54,10 @@ export default function NavBar(props) {
             />
           </svg>
         </div>
-        <div className="text-lg md:text-2xl font-bold mr-2 ">GamePadAfrica</div>
+        <div className="text-lg md:text-2xl font-bold ml-2  ">GamePadAfrica</div>
       
       </div>
-      <ul className=" md:flex md:gap-10  ml-auto text-2xl font-semibold  ">
+      <ul className=" md:flex md:gap-10 ml-auto  text-2xl font-semibold   ">
         {openMenu && isMobile ? (
           <TfiClose
             size={"24px"}
@@ -72,10 +72,10 @@ export default function NavBar(props) {
           />
         ) : (
           <>
-            <li className="nav-links">About Us</li>
+            {/* <li className="nav-links">About Us</li>
             <li className="nav-links">Services</li>
-            <li className="nav-links">Stats</li>
-            <li className="nav-links ml-28 ">DAO</li>
+            <li className="nav-links">Stats</li> */}
+            <li className="nav-links ml-[170px] border rounded-md px-8 py-2 hover:bg-white hover:text-lightPink transition-all ease-in-out duration-200 ">DAO</li>
           </>
         )}
         {openMenu && (
