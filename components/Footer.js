@@ -116,7 +116,7 @@ export const Footer = () => {
         </div>
       </div>
     </div>
-    <div className="py-6 text-sm text-center dark:text-gray-400">© 2022 Game Pad Africa. All rights reserved.</div>
+    <div className="py-6 text-sm text-center dark:text-gray-400">© 2023 Game Pad Africa. All rights reserved.</div>
   </footer>
   )
 }

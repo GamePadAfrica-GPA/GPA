@@ -75,15 +75,15 @@ export default function NavBar(props) {
             {/* <li className="nav-links">About Us</li>
             <li className="nav-links">Services</li>
             <li className="nav-links">Stats</li> */}
-            <li className="nav-links ml-[170px] border rounded-md px-8 py-2 hover:bg-white hover:text-lightPink transition-all ease-in-out duration-200 ">DAO</li>
+            <li className="nav-links ml-[170px] border rounded-md px-8 py-2 hover:bg-white hover:text-lightPink transition-all ease-in-out duration-200 ">Past Events</li>
           </>
         )}
         {openMenu && (
           <div className="absolute right-8 bg-backgroundOne animate-wobble  transition-all duration-500 ease-in-out z-10 p-8 text-center text-sm ">
-            <li className="cursor-pointer">About Us</li>
+            {/* <li className="cursor-pointer">About Us</li>
             <li className="cursor-pointer">Services</li>
             <li className="cursor-pointer">Stats</li>
-            <li className="cursor-pointer">DAO</li>
+            <li className="cursor-pointer">DAO</li> */}
           </div>
         )}
       </ul>
